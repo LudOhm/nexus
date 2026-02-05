@@ -27,7 +27,7 @@ jobs:
       - name: SonarQube Analysis
         run: |
           mvn org.sonarsource.scanner.maven:sonar-maven-plugin:4.0.0.4121:sonar \
-            -Dsonar.projectKey=spring-hello \
+            -Dsonar.projectKey=LudOhm_nexus \
             -Dsonar.organization=LudOhm \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
